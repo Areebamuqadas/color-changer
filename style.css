@@ -1,0 +1,38 @@
+body{
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 300px;
+      font-size:xx-large;
+      transition: background-color 0.5s;
+    
+  }
+
+.color-box {
+    position: fixed; 
+    bottom: 0;
+    height: 10vh;
+    width: 97vw;
+    background-color:#333;
+    padding: 10px;
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    box-shadow: 0 0 2px 2px grey;
+  }
+  button{
+    border: 2px solid transparent;
+    padding: 6px 8px;
+    color:black;
+    border-radius: 8px;
+    font-size: x-large;
+    font-weight:bold;
+  }
+  
+  button:hover{
+    border:2px solid black;
+    cursor: pointer;
+    color:white;
+    background-color:black;
+  }
+ 
